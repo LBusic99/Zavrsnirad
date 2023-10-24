@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NursingHomeResidents</name>
+    </assembly>
+    <members>
+        <member name="T:NursingHomeResidents.Controllers.ResidentsController">
+            <summary>
+            API endpoints for managing nursing home residents.
+            </summary>
+        </member>
+        <member name="M:NursingHomeResidents.Controllers.ResidentsController.GetResidents">
+            <summary>
+            Get a list of all residents.
+            </summary>
+            <returns>A list of residents.</returns>
+        </member>
+        <member name="M:NursingHomeResidents.Controllers.ResidentsController.GetResident(System.Int32)">
+            <summary>
+            Get a resident by ID.
+            </summary>
+            <param name="id">The ID of the resident to retrieve.</param>
+            <returns>The resident with the specified ID.</returns>
+        </member>
+        <member name="M:NursingHomeResidents.Controllers.ResidentsController.PostResident(NursingHomeResidents.Models.Resident)">
+            <summary>
+            Create a new resident.
+            </summary>
+            <param name="resident">The resident to create.</param>
+            <returns>The created resident.</returns>
+        </member>
+        <member name="M:NursingHomeResidents.Controllers.ResidentsController.PutResident(System.Int32,NursingHomeResidents.Models.Resident)">
+            <summary>
+            Update an existing resident by their ID.
+            </summary>
+            <param name="id">The unique ID of the resident to update.</param>
+            <param name="resident">The updated resident information.</param>
+            <returns>No content if the update is successful, BadRequest if the provided ID doesn't match the resident, or NotFound if the resident with the specified ID is not found.</returns>
+        </member>
+        <member name="M:NursingHomeResidents.Controllers.ResidentsController.DeleteResident(System.Int32)">
+            <summary>
+            Delete a resident by ID.
+            </summary>
+            <param name="id">The ID of the resident to delete.</param>
+            <returns>No content if successful, or an error if the resident doesn't exist.</returns>
+        </member>
+    </members>
+</doc>

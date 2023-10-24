@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.config",
+    "\\bin",
+    "\\Controllers",
+    "\\Data",
+    "\\Models",
+    "\\obj",
+    "\\Properties",
+    "\\Properties\\PublishProfiles",
+    "\\wwwroot"
+  ],
+  "SelectedNode": "\\Controllers\\ResidentController.cs",
+  "PreviewInSolutionExplorer": false
+}

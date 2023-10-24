@@ -1,0 +1,122 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 20px;
+}
+
+#residentForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#residentList {
+    list-style: none;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+#residentList li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#residentList li:last-child {
+    border-bottom: none;
+}
+
+#admissionDate {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+}
+
+button.update-button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    margin-right: 10px; 
+}
+    
+button.update-button:hover {
+    background-color: #39873d;
+}
+
+button.cancel-button {
+    background-color: #f44336; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+}
+
+button.cancel-button:hover {
+    background-color: #ba342a;
+}
+
+button.edit-button:hover {
+    background-color: #006e92;
+}
+
+button.remove-button:hover {
+    background-color: #ba342a;
+}
+
+button.edit-button {
+    display: block; 
+    background-color: #008CBA; 
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    margin-top: 5px; 
+}
+
+button.remove-button {
+    display: block; 
+    background-color: #f44336; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    margin-top: 5px; 
+}
+
+.centered-title {
+    text-align: center;
+}

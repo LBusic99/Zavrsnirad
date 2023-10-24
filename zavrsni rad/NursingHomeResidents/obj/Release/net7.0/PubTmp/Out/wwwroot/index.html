@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Nursing Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="centered-title">
+        <h1>Aplikacija za upravljanje štićenicima doma za starije osobe</h1>
+    </div>
+    <div>
+        <h2>Dodaj novog štićenika</h2>
+        <form id="residentForm">
+            <div class="form-group">
+                <label for="firstName">Ime:</label>
+                <input type="text" class="form-control" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Prezime:</label>
+                <input type="text" class="form-control" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="roomNumber">Broj sobe:</label>
+                <input type="number" class="form-control" id="roomNumber" name="roomNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="admissionDate">Datum upisa (MM-DD-YYYY):</label>
+                <input type="date" class="form-control" id="admissionDate" name="admissionDate" required>
+            </div>
+            <div class="form-group">
+                <label for="medicalCondition">Medicinsko stanje:</label>
+                <input type="text" class="form-control" id="medicalCondition" name="medicalCondition" required>
+            </div>
+            <button type="submit" class="btn btn-primary" id="addResidentButton">Dodaj štićenika</button>
+        </form>
+    </div>
+    <div>
+        <h2>Štićenici</h2>
+        <ul id="residentList">
+        </ul>
+    </div>
+</body>
+</html>

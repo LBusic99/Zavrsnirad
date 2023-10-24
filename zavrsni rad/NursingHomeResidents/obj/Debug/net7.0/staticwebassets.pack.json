@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Visual Studio projects\\NursingHomeResidents\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Visual Studio projects\\NursingHomeResidents\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "D:\\Visual Studio projects\\NursingHomeResidents\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.NursingHomeResidents.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.NursingHomeResidents.props",
+      "PackagePath": "build\\NursingHomeResidents.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.NursingHomeResidents.props",
+      "PackagePath": "buildMultiTargeting\\NursingHomeResidents.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.NursingHomeResidents.props",
+      "PackagePath": "buildTransitive\\NursingHomeResidents.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

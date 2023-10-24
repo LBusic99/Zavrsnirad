@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "b47am1nsPGnZswV5CuybM/n0cSzf1lNCXfVRI4yI5ec=",
+  "Source": "NursingHomeResidents",
+  "BasePath": "_content/NursingHomeResidents",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NursingHomeResidents\\wwwroot",
+      "Source": "NursingHomeResidents",
+      "ContentRoot": "D:\\Visual Studio projects\\NursingHomeResidents\\wwwroot\\",
+      "BasePath": "_content/NursingHomeResidents",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Visual Studio projects\\NursingHomeResidents\\wwwroot\\index.html",
+      "SourceId": "NursingHomeResidents",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio projects\\NursingHomeResidents\\wwwroot\\",
+      "BasePath": "_content/NursingHomeResidents",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Visual Studio projects\\NursingHomeResidents\\wwwroot\\script.js",
+      "SourceId": "NursingHomeResidents",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio projects\\NursingHomeResidents\\wwwroot\\",
+      "BasePath": "_content/NursingHomeResidents",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "D:\\Visual Studio projects\\NursingHomeResidents\\wwwroot\\style.css",
+      "SourceId": "NursingHomeResidents",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Visual Studio projects\\NursingHomeResidents\\wwwroot\\",
+      "BasePath": "_content/NursingHomeResidents",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}
